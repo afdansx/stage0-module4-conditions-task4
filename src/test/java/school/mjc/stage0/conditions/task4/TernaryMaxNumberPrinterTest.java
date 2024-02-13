@@ -18,7 +18,7 @@ class TernaryMaxNumberPrinterTest extends BaseIOTest {
     void printGreatestWhenAllUniquePrintsGreatest() {
         TernaryMaxNumberPrinter maxNumberPrinter = new TernaryMaxNumberPrinter();
 
-        maxNumberPrinter.printGreatest(1,2,3);
+        maxNumberPrinter.printGreatest(1,3,2);
 
         assertOutEquals("3\n");
     }
